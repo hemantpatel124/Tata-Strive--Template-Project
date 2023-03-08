@@ -1,0 +1,124 @@
+body{
+    margin: 0;
+    background-color: aquamarine;
+    color: black;
+}
+div{
+    border: 2px dashed;
+}
+
+.menubar{
+    background-color: #333;
+    overflow: hidden;
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+.menubar a{
+    float: left;
+    display: block;
+    color: #f2f2f2;
+    text-align: center;
+    padding:10px 20px;
+    font-size: 25px;
+}
+.nav-item, .dropdown-menu{
+    margin-top: 25px;
+}
+.menubar a:hover{
+    background-color: #f2f2f2;
+    color:#333;
+}
+.dropdown-item{
+    display: none;
+    position: relative;
+    min-width: auto;
+    z-index: 1;
+}
+.dropdown-item a{
+    float: left;
+    display: block;
+    color: #f2f2f2;
+    text-align: center;
+    padding:10px 20px;
+    font-size: 25px;
+}
+.dropdown-menu a, .dropdown-item a:hover{
+    background-color: #f2f2f2;
+    color:#333;
+}
+
+.dropdown-menu:hover .dropdown-item{
+    display: block;
+}
+
+#img-logo{
+    height: 75px;
+    float: left;
+}
+
+.main{
+    padding: 5%;
+    margin-top:100px;
+    height: auto;
+}
+
+.about-dec p{
+    padding: 0 20%;
+    text-align: justify;
+}
+.about-sub{
+    display: flex;
+    padding: 1%;
+}
+.about-sub div{
+    flex: 1;
+    align-items: center;
+    display: flex;
+}
+
+
+h1,h2, h3,   p, label {
+    text-align: center;
+}
+
+
+td{
+    padding:10px 5px 10px ;
+    width:38%;
+}
+label{
+    align-items: center;
+    text-align: center;
+    margin-left: 10px;
+}
+.contact-form td{
+    border: 2px solid;
+}
+.left{align-content: flex-end;
+    width: 100px;
+    float: right;
+}
+.right{
+    float: left;
+}
+input{
+    height: 30px;
+    width: 40%;
+    border-radius: 3px;
+    margin: 10px 0;
+    float: inline-start;
+}
+button{
+    height: 30px;
+    width: 30%;
+    border-radius: 3px;
+    margin: 10px 20px;
+}
+select{
+    height: 30px;
+    width: 35%;
+    border-radius: 3px;
+    margin: 5px 0;  
+}
+
